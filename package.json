@@ -4,7 +4,7 @@
   "description": "My first godspeed project.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv ./src/index.ts",
+    "start": "nodemon -r dotenv ./src/index.ts",
     "gen-docs": "npx @godspeedsystems/api-generator",
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
